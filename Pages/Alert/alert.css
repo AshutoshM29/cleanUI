@@ -1,0 +1,80 @@
+.alert {
+    border-radius: 0.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    max-width: 25rem;
+    padding: 1rem;
+  }
+  
+  /* Solid */
+  .alert-primary-solid {
+    border: 0.2rem solid var(--blue-dominant);
+    background: var(--blue-light);
+    color: var(--blue-dominant);
+  }
+  
+  .alert-secondary-solid {
+    border: 0.2rem solid var(--gray-dominant);
+    background: var(--gray-lighter);
+    color: var(--gray-dominant);
+  }
+  
+  .alert-success-solid {
+    border: 0.2rem solid var(--green-dominant);
+    background: var(--green-lighter);
+    color: var(--green-dominant);
+  }
+  
+  .alert-warning-solid {
+    border: 0.2rem solid var(--orange-dominant);
+    background: var(--orange-lighter);
+    color: var(--orange-dominant);
+  }
+
+  .alert-danger-solid {
+    border: 0.2rem solid var(--red-dominant);
+    background: var(--red-lighter);
+    color: var(--red-dominant);
+  }
+    
+/* Hollow */  
+  .alert-primary-hollow {
+    border: 0.2rem solid var(--blue-light);
+    color: var(--blue-dominant);
+  }
+  
+  .alert-secondary-hollow {
+    border: 0.2rem solid var(--gray-lighter);
+    color: var(--gray-dominant);
+  }
+  
+  .alert-success-hollow {
+    border: 0.2rem solid var(--green-lighter);
+    color: var(--green-dominant);
+  }
+  
+  .alert-warning-hollow {
+    border: 0.2rem solid var(--orange-lighter);
+    color: var(--orange-dominant);
+  }
+
+  .alert-danger-hollow {
+    border: 0.2rem solid var(--red-lighter);
+    color: var(--red-dominant);
+  }
+
+
+  #btn-cross {
+      background-color: transparent;
+      border-style: none;
+      font-size: 1.5rem;
+      margin-left: 4rem;
+  }
+
+  #cross-sa {
+      color: var(--green-dominant);
+  }
+  
+  #cross-da {
+      color: var(--red-dominant);
+  }
