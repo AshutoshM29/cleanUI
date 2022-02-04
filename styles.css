@@ -139,6 +139,7 @@ html {
   }
   aside > a:hover {
     color: var(--blue-mild);
+    font-size: 2rem;
   }
   .active-tab {
     cursor: pointer;
@@ -187,9 +188,7 @@ html {
     margin: auto;
     gap: 1rem;
   }
-  /* .highlight-text{
-    color:var(--blue-light);
-  } */
+
   .to-top-btn{
     position:absolute;
     bottom:5rem;
@@ -201,28 +200,6 @@ html {
     width: 5rem;
     border-radius: 50%;
   }
-
-
-
-
-
-
-
-  /* THIS WE MIGHT NEEED */
-
-
-  @media screen and ( max-width:600px){
-    html{
-      font-size: 50%;
-    }
-  }
-  body {
-    background: var(--light-bg);
-    color: var(--secondary-text);
-  }
-
-    
-
 
 .with-love  {
   font-size: large;
@@ -241,6 +218,8 @@ html {
   padding: 0 2rem;
 }
 
-/* .social-img {
-  max-width: 5rem;
-} */
+@media screen and ( max-width:600px){
+  html{
+    font-size: 50%;
+  }
+}

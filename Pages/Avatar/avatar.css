@@ -1,0 +1,49 @@
+.avatar {
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+    }
+
+  .avatar-sq {
+    border-radius: 1rem;
+    height: 8rem;
+    width: 8rem;
+    }
+  
+    .avatar-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--blue-dominant);
+        color: white;
+        }
+    
+        
+  .avatar-xs {
+    height: 4rem;
+    width: 4rem;
+    }
+
+  .avatar-sm {
+    height: 6rem;
+    width: 6rem;
+    }
+  
+  .avatar-md {
+    height: 10rem;
+    width: 10rem;
+    }
+  
+  .avatar-lg {
+    height: 12rem;
+    width: 12rem;
+    }
+  
+  .avatar-xlg {
+    height: 14rem;
+    width: 14rem;
+    }
+
+    #avatar-txt {
+        display: flex;
+    }
