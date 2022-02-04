@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cleanUI</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/Components/global.css">
+</head>
+<body>
+  <header>
+    <div>
+      <img class="ui-logo" src="/Assets/clean-logos.jpeg"/>
+    </div>
+    <div class="right-side">
+      <a class="link-text-primary">Home</a>
+      <a class="link-text-primary">Docs</a>
+      <div class="mode-toggle">
+        <i class="fas fa-sun"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- Aside -->
+  <aside>
+    <!-- Getting Started -->
+    <h3>Getting Started</h3>
+    <a href="">Introduction</a>
+    <a href="">Typography</a>
+
+    <!-- Components -->
+    <h3>Components</h3>
+    <a href="/Pages/Avatar/avatar.html">Avatar</a>
+    <a href="/Pages/Alert/alert.html">Alert</a>
+    <a class="active-tab" href="/Pages/Button/button.html">Button</a>
+    <a href="/Pages/Badge/badge.html">Badge</a>
+    <a href="">Card</a>
+    <a href="">Input</a>
+    <a href="">Form</a>
+    <a href="">Snackbar</a>
+  </aside>
+
+  <!-- Main -->
+  <main>
+      <h1>Button</h1>
+      <p class="body-lg">Buttons can be used to make your web page interactive to your user. You can use them to take user action.</p>
+      <h2 class="section-header">Solid Buttons</h2>
+
+      <button class="btn btn-primary-solid">Primary</button>
+      <button class="btn btn-secondary-solid">Secondary</button>
+      <button class="btn btn-success-solid">Success</button>
+      <button class="btn btn-error-solid">Error</button>
+  
+      <p class="body-r">Copy the given code to create Solid Buttons</p>
+      <iframe
+      src="https://carbon.now.sh/embed?bg=rgba%283%2C26%2C77%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary-solid%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary-solid%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-success-solid%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-error-solid%2522%253EError%253C%252Fbutton%253E"
+      style="width: 50rem; height: 30rem; border:0; transform: scale(1); overflow:y-direction;"
+      sandbox="allow-scripts allow-same-origin">
+    </iframe>
+
+      <h2 class="section-header">Outline Buttons</h2>
+  
+      <button class="btn btn-primary-outline">Primary</button>
+      <button class="btn btn-secondary-outline">Secondary</button>
+      <button class="btn btn-success-outline">Success</button>
+      <button class="btn btn-error-outline">Error</button>
+
+      <p class="body-r">Copy the given code to create Outline Buttons</p>
+      <iframe
+      src="https://carbon.now.sh/embed?bg=rgba%283%2C26%2C77%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary-outline%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary-outline%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-success-outline%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-error-outline%2522%253EError%253C%252Fbutton%253E"
+      style="width: 50rem; height: 30rem; border:0; transform: scale(1); overflow:hidden;"
+      sandbox="allow-scripts allow-same-origin">
+    </iframe>
+
+      <h2 class="section-header">Icon Button</h2>
+  
+      <button class="btn btn-primary-solid">
+        <i class="fas fa-sign-in-alt"></i> Sign In
+      </button>
+  
+      <button class="btn btn-success-outline">
+        <i class="fas fa-shopping-cart"></i> Add to Cart
+      </button>
+  
+
+      <p class="body-r">Copy the given code to create Buttons with Icons</p>
+      <iframe
+      src="https://carbon.now.sh/embed?bg=rgba%283%2C26%2C77%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary-solid%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-sign-in-alt%2522%253E%253C%252Fi%253E%2520Sign%2520In%250A%253C%252Fbutton%253E%250A%2520%2520%250A%253Cbutton%2520class%253D%2522btn%2520btn-success-outline%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520Add%2520to%2520Cart%250A%253C%252Fbutton%253E"
+      style="width: 50rem; height: 30rem; border:0; transform: scale(1); overflow:y-direction;"
+      sandbox="allow-scripts allow-same-origin">
+    </iframe>
+
+      <h2 class="section-header">Floating Button</h2>
+  
+      <a href="#">
+        <button class="btn-floating"><i class="fas fa-arrow-up"></i></button
+      ></a>
+
+      <p class="body-r">Copy the given code to create Solid Buttons</p>
+<iframe
+      src="https://carbon.now.sh/embed?bg=rgba%283%2C26%2C77%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=152%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523%2522%253E%250A%253Cbutton%2520class%253D%2522btn-floating%2522%253E%253Ci%2520class%253D%2522fas%2520fa-arrow-up%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fa%253E"
+      style="width: 50rem; height: 30rem; border:0; transform: scale(1); overflow:hidden;"
+      sandbox="allow-scripts allow-same-origin">
+    </iframe>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="flex-align-center">
+    <ul class="social-links list-non-bullet">
+        <li class="list-item" ;>
+            <a href="https://github.com/AshutoshM29"> <i class="fab fa-github"></i></a></li>
+        <li class="list-item">
+            <a href="https://twitter.com/Astomi_29?s=08"> <i class="fab fa-twitter"></i></a></li>
+        <li class="list-item">
+            <a href="https://www.instagram.com/the.astomi/"> <i class="fab fa-instagram"></i></a></li>
+        <li class="list-item">
+            <a href="https://www.linkedin.com/mwlite/in/ashutosh-mishra-b50423206"><i class="fab fa-linkedin"></i></a></li>
+
+    </ul>
+    <div class="with-love">Made with ❤️ by : Ashutosh</div>
+
+
+  </footer>
+
+
+
+</body>
+</html>

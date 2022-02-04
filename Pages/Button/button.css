@@ -1,0 +1,110 @@
+.btn {
+    background: none;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    padding: 1rem 2rem;
+    }
+  
+  .btn-primary-solid {
+    background: var(--blue-mild);
+    color: var(--white);
+  }
+  
+  .btn-primary-solid:hover {
+    background: var(--blue-dominant);
+  }
+  
+  .btn-secondary-solid {
+    background: var(--gray-mild);
+    color: var(--white);
+  }
+  
+  .btn-secondary-solid:hover {
+    background: var(--gray-dominant);
+  }
+  
+  .btn-success-solid {
+    background: var(--green-mild);
+    color: var(--white);
+  }
+  
+  .btn-success-solid:hover {
+    background: var(--green-dominant);
+  }
+
+  .btn-error-solid {
+    background: var(--red-mild);
+    color: var(--white);
+  }
+  
+  .btn-error-solid:hover {
+    background: var(--red-dominant);
+  }
+
+  /* outline */
+  .btn-primary-outline {
+    border: 0.2rem solid var(--blue-dominant);
+    color: var(--blue-dominant);
+  }
+  
+  .btn-primary-outline:hover {
+    background: var(--blue-dominant);
+    color: var(--white);
+  }
+  
+  .btn-secondary-outline {
+    border: 0.2rem solid var(--gray-dominant);
+    color: var(--gray-dominant);
+  }
+  
+  .btn-secondary-outline:hover {
+    background: var(--gray-dominant);
+    color: var(--white);
+  }
+  
+  .btn-success-outline {
+    border: 0.2rem solid var(--green-dominant);
+    color: var(--green-dominant);
+  }
+  
+  .btn-success-outline:hover {
+    background: var(--green-dominant);
+    color: var(--white);
+  }
+
+  .btn-error-outline {
+    border: 0.2rem solid var(--red-dominant);
+    color: var(--red-dominant);
+  }
+  
+  .btn-error-outline:hover {
+    background: var(--red-dominant);
+    color: var(--white);
+  }
+
+
+  /** Floating Button **/
+
+.btn-floating {
+    align-items: center;
+    justify-content: center;
+    background: var(--blue-dominant);
+    border: medium solid var(--blue-mild);
+    border-radius: 50%;
+    box-shadow: 0.2rem 0.2rem 1rem 0.1rem var(--gray-mild);
+    color: var(--white);
+    display: flex;
+    font-size: 2rem;
+    width: 5rem;
+    height: 5rem;
+    transition: transform 0.2s;
+  }
+  
+  .btn-floating:focus-visible {
+    outline: none;
+  }
+  
+  .btn-floating:hover {
+    transform: translateY(-10%);
+  }
