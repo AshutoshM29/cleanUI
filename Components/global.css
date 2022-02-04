@@ -2,4 +2,6 @@
 
 /* Components */
 @import url("/Pages/Alert/alert.css");
-@import url("/Pages/Avatar/avatar.css")
+@import url("/Pages/Avatar/avatar.css");
+@import url("/Pages/Button/button.css");
+@import url("/Pages/Badge/badge.css");
