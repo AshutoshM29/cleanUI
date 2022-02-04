@@ -108,11 +108,11 @@ html {
     margin: 3rem 0;
   }
 
-  .right-side {
+  .right-icons {
     display: flex;
     gap: 2rem;
   }
-  .mode-toggle {
+  .btn-toggle {
     cursor: pointer;
   }
   
@@ -132,6 +132,7 @@ html {
     padding:3rem 0 0 6rem;
     justify-content: center;
     overflow:auto;
+    margin-top: 2rem;
   }
   aside a {
     font-size:1.8rem;
@@ -152,6 +153,7 @@ html {
     grid-area: main;
     overflow-y: auto;
     padding:5rem;
+    margin-top: 2rem;
   }
   body {
     height: 100vh;
@@ -216,6 +218,11 @@ html {
 .fab {
   font-size: 2rem;
   padding: 0 2rem;
+}
+
+iframe {
+  display: flex;
+  justify-content: flex-start;
 }
 
 @media screen and ( max-width:600px){
