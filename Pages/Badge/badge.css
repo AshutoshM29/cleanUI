@@ -1,0 +1,51 @@
+.badge {
+    position: relative;
+    width: max-content;
+  }
+  
+  .badge-btn {
+    background: none;
+    border: none;
+    color: var(--blue-dominant);
+    font-size: 3rem;
+    position: relative;
+    margin-right: 2rem;
+  }
+  
+  .badge-count {
+    align-items: center;
+    border: 0.2rem solid var(--white);
+    border-radius: 50%;
+    color: var(--white);
+    display: flex;
+    font-size: 1.1rem;
+    height: 2.2rem;
+    width: 2.2rem;
+    justify-content: center;
+    padding: 0.5rem;
+    position: absolute;
+    left: 2.5rem;
+    bottom: 2rem;  
+  }
+  
+  .badge-status {
+    border: 0.2rem solid var(--white);
+    border-radius: 50%;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    height: 1.8rem;
+    width: 1.8rem;
+    position: absolute;
+  }
+
+  .bg-dnd {
+      background-color: var(--red-dominant);
+  }
+
+  .bg-online {
+      background-color: var(--green-mild);
+  }
+
+  .bg-away {
+      background-color: var(--orange-mild);
+  }
