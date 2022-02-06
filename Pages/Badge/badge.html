@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cleanUI</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/Components/global.css">
+</head>
+<body>
+  <header>
+    <div>
+      <img class="ui-logo" src="/Assets/clean-logos.jpeg"/>
+    </div>
+    <div class="right-side">
+      <a class="link-text-primary">Home</a>
+      <a class="link-text-primary">Docs</a>
+      <div class="mode-toggle">
+        <i class="fas fa-sun"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- Aside -->
+  <aside>
+    <!-- Getting Started -->
+    <h3>Getting Started</h3>
+    <a href="">Introduction</a>
+    <a href="">Typography</a>
+
+    <!-- Components -->
+    <h3>Components</h3>
+    <a href="/Pages/Avatar/avatar.html">Avatar</a>
+    <a href="/Pages/Alert/alert.html">Alert</a>
+    <a href="/Pages/Button/button.html">Button</a>
+    <a class="active-tab" href="/Pages/Badge/badge.html">Badge</a>
+    <a href="">Card</a>
+    <a href="">Input</a>
+    <a href="">Form</a>
+    <a href="">Snackbar</a>
+  </aside>
+
+  <!-- Main -->
+  <main>
+      <h1>Badge</h1>
+      <p class="body-lg">Badge can be used to show either status of the user (online, offline or DnD) or you can use it show notification count.</p>
+      <h2 class="section-header">Badge on Icons</h2>
+      <button class="badge-btn">
+        <i class="fas fa-home"></i>
+        <span class="badge-count bg-away">99+</span>
+      </button>
+
+      <button class="badge-btn">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="badge-count bg-online">2</span>
+      </button>
+
+      <button class="badge-btn">
+        <i class="fas fa-bell"></i>
+        <span class="badge-count bg-dnd">99+</span>
+      </button>
+
+
+      <p class="body-r">Copy the given code to create Badge on Icons</p>
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%283%2C26%2C77%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522badge-btn%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-home%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2520bg-away%2522%253E99%252B%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522badge-btn%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2520bg-online%2522%253E2%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522badge-btn%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2520bg-dnd%2522%253E99%252B%253C%252Fspan%253E%250A%253C%252Fbutton%253E"
+  style="width: 50rem; height: 40rem; border:0; transform: scale(1); overflow: y-direction;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+      <h2 class="section-header">Badge on Avatars</h2>
+
+      <div class="badge">
+        <img
+          class="avatar"
+          src="/Assets/male-av.jpg"
+          alt="male avatar"
+        />
+
+        <span class="badge-status bg-online"></span>
+      </div>
+
+      <div class="badge">
+        <img
+          class="avatar"
+          src="/Assets/male-av.jpg"
+          alt="male avatar"
+        />
+
+        <span class="badge-status bg-dnd"></span>
+      </div>
+
+      <div class="badge">
+        <img
+          class="avatar"
+          src="/Assets/male-av.jpg"
+          alt="male avatar"
+        />
+
+        <span class="badge-status bg-away"></span>
+      </div>
+
+      <p class="body-r">Copy the given code to create Badge on Icons</p>
+      <iframe
+      src="https://carbon.now.sh/embed?bg=rgba%283%2C26%2C77%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520class%253D%2522avatar%2522%250A%2520%2520%2520%2520src%253D%2522%252FAssets%252Fmale-av.jpg%2522%250A%2520%2520%2520%2520alt%253D%2522male%2520avatar%2522%250A%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-status%2520bg-online%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522%252FAssets%252Fmale-av.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522male%2520avatar%2522%250A%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-status%2520bg-dnd%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520src%253D%2522%252FAssets%252Fmale-av.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520alt%253D%2522male%2520avatar%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-status%2520bg-away%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+      style="width: 50rem; height: 40rem; border:0; transform: scale(1); overflow:hidden;"
+      sandbox="allow-scripts allow-same-origin">
+    </iframe>
+      
+  </main>
+
+  <!-- Footer -->
+  <footer class="flex-align-center">
+    <ul class="social-links list-non-bullet">
+        <li class="list-item" ;>
+            <a href="https://github.com/AshutoshM29"> <i class="fab fa-github"></i></a></li>
+        <li class="list-item">
+            <a href="https://twitter.com/Astomi_29?s=08"> <i class="fab fa-twitter"></i></a></li>
+        <li class="list-item">
+            <a href="https://www.instagram.com/the.astomi/"> <i class="fab fa-instagram"></i></a></li>
+        <li class="list-item">
+            <a href="https://www.linkedin.com/mwlite/in/ashutosh-mishra-b50423206"><i class="fab fa-linkedin"></i></a></li>
+
+    </ul>
+    <div class="with-love">Made with ❤️ by : Ashutosh</div>
+
+  </footer>
+
+</body>
+</html>
