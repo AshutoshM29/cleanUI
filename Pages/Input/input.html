@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cleanUI</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/Components/global.css">
+</head>
+<body>
+  <header>
+    <div>
+      <img class="ui-logo" src="/Assets/clean-logos.jpeg"/>
+    </div>
+    <div class="right-icons">
+      <a class="link-text-primary">Home</a>
+      <a class="link-text-primary">Docs</a>
+      <div class="mode-toggle">
+        <i class="fas fa-sun"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- Aside -->
+  <aside>
+    <!-- Getting Started -->
+    <h3>Getting Started</h3>
+    <a href="">Introduction</a>
+    <a href="">Typography</a>
+
+    <!-- Components -->
+    <h3>Components</h3>
+    <a href="/Pages/Avatar/avatar.html">Avatar</a>
+    <a href="/Pages/Alert/alert.html">Alert</a>
+    <a href="/Pages/Button/button.html">Button</a>
+    <a href="/Pages/Badge/badge.html">Badge</a>
+    <a href="/Pages/Card/card.html">Card</a>
+    <a class="active-tab" href="/Pages/Input/input.html">Input</a>
+    <a href="">Image</a>
+    <a href="">Text Utilities</a>
+  </aside>
+
+  <!-- Main -->
+  <main>
+    <h1>Input</h1>
+    <p class="body-lg">The input tag specifies an input field where the user can enter data. The input element can be displayed in several ways, depending on the type attribute like text, radio, checkbox etc.
+        You can also disabled them by using appropriate classes.</p>
+    <h2 class="section-header">Form Input</h2>
+
+    <form class="form">
+      <input
+        class="input"
+        type="email"
+        name="email-id"
+        placeholder="Enter Your Email"
+      />
+      <input
+        class="input"
+        type="password"
+        name="password"
+        placeholder="Enter Your Password"
+      />
+
+      <button class="btn btn-error-solid btn-squared">
+        <i class="fas fa-door-open"></i> Log In
+      </button>
+    </form>
+
+    <h2 class="section-header">Error Form Input</h2>
+
+    <form class="form">
+      <span class="msg-error">Please enter correct Email or Password</span>
+
+      <input
+        class="input input-error"
+        type="email"
+        name="email-id"
+        placeholder="Enter Your Email"
+      />
+      <input
+        class="input input-error"
+        type="password"
+        name="password"
+        placeholder="Enter Your Password"
+      />
+
+      <button class="btn btn-error-solid btn-squared">
+        <i class="fas fa-door-open"></i> Log In
+      </button>
+    </form>
+
+            
+             <h2 class="section-header">Radio Button</h2>
+             <p>Radio buttons allow the user to select only one option from all given options.</p>
+
+             <div class="radio-inputs">
+                 <div class="radio-input">
+                     <input type="radio" class="radio circle" name="demo" value="Cat"> Cat
+                 </div>
+                 <div class="radio-input">
+                     <input type="radio" class="radio circle" name="demo" value="Dog"> Dog
+                 </div>
+                 <div class="radio-input">
+                     <input type="radio" class="radio circle" name="demo" value="Cow"> Cow
+                 </div>
+                 <div class="radio-input">
+                     <input type="radio" class="radio circle" name="demo" value="Goat" disabled> Goat
+                 </div>
+                
+             </div>
+
+             <h2 class="section-header">Checkbox</h2>
+             <p>Checkboxes allow the user to select one or more option from all given options.</p>
+
+             <div class="checkbox-inputs">
+                 <div class="check-input">
+                     <input type="checkbox" class="checkbox" value="Cat" name="Cat"> Cat
+                 </div>
+                 <div class="check-input">
+                     <input type="checkbox" class="checkbox" value="Swan" name="Dog"> Dog
+                 </div>
+                 <div class="check-input">
+                     <input type="checkbox" class="checkbox" value="Goat" name="Cow"> Cow
+                 </div>
+                 <div class="check-input">
+                     <input type="checkbox" class="checkbox" value="Dog" name="Goat" disabled> Dog
+                 </div>
+             </div>
+
+    
+  </main>
+
+  <!-- Footer -->
+  <footer class="flex-align-center">
+    <ul class="social-links list-non-bullet">
+        <li class="list-item" ;>
+            <a href="https://github.com/AshutoshM29"> <i class="fab fa-github"></i></a></li>
+        <li class="list-item">
+            <a href="https://twitter.com/Astomi_29?s=08"> <i class="fab fa-twitter"></i></a></li>
+        <li class="list-item">
+            <a href="https://www.instagram.com/the.astomi/"> <i class="fab fa-instagram"></i></a></li>
+        <li class="list-item">
+            <a href="https://www.linkedin.com/mwlite/in/ashutosh-mishra-b50423206"><i class="fab fa-linkedin"></i></a></li>
+
+    </ul>
+    <div class="with-love">Made with ❤️ by : Ashutosh</div>
+
+  </footer>
+
+</body>
+</html>
