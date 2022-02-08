@@ -123,6 +123,8 @@ html {
     gap: 1rem;
     background: var(--blue-dominant);
     color: var(--white);
+    box-shadow: 0 0 2rem 0.2rem var(--gray-dominant);
+
   }
   
   aside {
@@ -218,6 +220,47 @@ html {
 .fab {
   font-size: 2rem;
   padding: 0 2rem;
+}
+
+.span-imp {
+  font-weight: bolder;
+  color: var(--blue-light);
+}
+
+.hero-image {
+  display: flex;
+  height: 30rem;
+  position: relative;
+  margin-left: 68rem;
+  margin-top: -35rem;
+}
+
+.btn-floating-gs {
+  border: 0.2rem solid var(--blue-dominant);
+  padding: 1rem;
+  border-radius: 2rem;
+  margin: 2rem 0;
+  background: var(--blue-dominant);
+  border: medium solid var(--blue-mild);
+  box-shadow: 0.2rem 0.2rem 1rem 0.1rem var(--gray-mild);
+  color: var(--white);
+  display: flex;
+  gap: 1rem;
+  font-size: 2rem;
+}
+
+.container-feature {
+  margin: 10rem 0 0 0;
+}
+
+.section-features {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 2rem;
+  color: var(--blue-dominant);
+  /* justify-content: space-evenly; */
+  align-items: flex-start;
+  gap: 2rem;
 }
 
 iframe {
