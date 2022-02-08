@@ -1,0 +1,19 @@
+.image-responsive{
+    padding: 4rem;
+}
+
+.image-responsive img{
+    height: 100%;
+    width: 100%;
+}
+
+.image-circular{
+    padding: 4rem;
+}
+
+.image-circular img{
+    border-radius: 50%;
+    height: 60rem;
+    width: 60rem;
+    object-fit: fill;
+}

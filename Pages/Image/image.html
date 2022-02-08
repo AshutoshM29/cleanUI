@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cleanUI</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/Components/global.css">
+</head>
+<body>
+  <header>
+    <div>
+      <img class="ui-logo" src="/Assets/clean-logos.jpeg"/>
+    </div>
+    <div class="right-icons">
+      <a class="link-text-primary">Home</a>
+      <a class="link-text-primary">Docs</a>
+      <div class="mode-toggle">
+        <i class="fas fa-sun"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- Aside -->
+  <aside>
+    <!-- Getting Started -->
+    <h3>Getting Started</h3>
+    <a href="">Introduction</a>
+    <a href="">Typography</a>
+
+    <!-- Components -->
+    <h3>Components</h3>
+    <a href="/Pages/Avatar/avatar.html">Avatar</a>
+    <a href="/Pages/Alert/alert.html">Alert</a>
+    <a href="/Pages/Button/button.html">Button</a>
+    <a href="/Pages/Badge/badge.html">Badge</a>
+    <a href="/Pages/Card/card.html">Card</a>
+    <a href="/Pages/Input/input.html">Input</a>
+    <a class="active-tab" href="/Pages/Image/image.html">Image</a>
+    <a href="/Pages/Text-Utilities/text.html">Text Utilities</a>
+  </aside>
+
+  <!-- Main -->
+  <main>
+    <h1>Image</h1>
+    <h2 class="section-header">Responsive Images</h2>
+    <p>It is very important to use responsive images in our website.
+     To create responsive image you need to add <span>image-responsive</span> class to the element</p>
+
+     <div class="image-responsive">
+         <img src="https://picsum.photos/1400/900"
+          alt="responsive-img"
+          />
+     </div>
+
+     <p class="body-r">Copy the given code to create a Responsive Image</p>
+     <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%283%2C26%2C77%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522image-responsive%2522%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F1400%252F900%2522%250A%2520%2520%2520%2520alt%253D%2522responsive-img%2522%250A%2520%2520%2520%2520%252F%253E%250A%253C%252Fdiv%253E"
+  style="width: 40rem; height: 30rem; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+     <h2 class="section-header">Circular Image</h2>
+     <p>To generate circular image you need to add <span>image-circular</span> class to the element.</p>
+     <div class="image-circular">
+       <img src="https://picsum.photos/500/660" 
+       alt="responsive-circular-img"
+       />
+     </div>
+
+     <p class="body-r">Copy the given code to create a Card w/ Shadow</p>
+     <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%283%2C26%2C77%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522image-circular%2522%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F500%252F660%2522%2520%250A%2509alt%253D%2522responsive-circular-img%2522%250A%2509%252F%253E%250A%253C%252Fdiv%253E"
+  style="width: 40rem; height: 30rem; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+  </main>
+
+  <!-- Footer -->
+  <footer class="flex-align-center">
+    <ul class="social-links list-non-bullet">
+        <li class="list-item" ;>
+            <a href="https://github.com/AshutoshM29"> <i class="fab fa-github"></i></a></li>
+        <li class="list-item">
+            <a href="https://twitter.com/Astomi_29?s=08"> <i class="fab fa-twitter"></i></a></li>
+        <li class="list-item">
+            <a href="https://www.instagram.com/the.astomi/"> <i class="fab fa-instagram"></i></a></li>
+        <li class="list-item">
+            <a href="https://www.linkedin.com/mwlite/in/ashutosh-mishra-b50423206"><i class="fab fa-linkedin"></i></a></li>
+
+    </ul>
+    <div class="with-love">Made with ❤️ by : Ashutosh</div>
+
+  </footer>
+
+</body>
+</html>

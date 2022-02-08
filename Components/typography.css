@@ -55,6 +55,10 @@ p,
 .body-sm {
   font-size: 0.8rem;
 }
-p, .body-l, .body-md, .body-r, .body-sm{
+p, .body-lg, .body-md, .body-r, .body-sm{
   color:var(--blue-mild);
+}
+
+span {
+  font-weight: 800;
 }

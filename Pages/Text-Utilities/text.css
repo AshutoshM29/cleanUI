@@ -1,0 +1,31 @@
+.headings-container ,.content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 0.2rem solid var(--blue-dominant);
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+.pragraph-container{
+    border: 0.2rem solid var(--blue-dominant);
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-end {
+    text-align: end;
+}
