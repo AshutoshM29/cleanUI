@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+    max-width: 100%;
+  
+    display: grid;
+    grid-template-columns: 15rem 15rem  1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "header header header header header header"
+      "header header header header header header"
+      "main  main  main   main   main   main"
+      "main  main  main   main   main   main"
+      "main  main  main   main   main   main"
+      "main  main  main   main   main   main"
+      ;
+}
