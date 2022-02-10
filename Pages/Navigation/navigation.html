@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cleanUI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/Components/global.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="ui-logo" src="/Assets/clean-logos.jpeg" />
+        </div>
+        <div class="right-icons">
+            <a href="/index.html" class="link-text-primary">Home</a>
+            <a href="/Components/docs.html" class="link-text-primary">Docs</a>
+            <div class="btn-toggle">
+                <i class="fas fa-sun"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Aside -->
+    <aside>
+        <!-- Getting Started -->
+        <h3>Getting Started</h3>
+        <a href="/Components/docs.html">Installation</a>
+
+        <!-- Components -->
+        <h3>Components</h3>
+        <a href="/Pages/Avatar/avatar.html">Avatar</a>
+        <a href="/Pages/Alert/alert.html">Alert</a>
+        <a href="/Pages/Button/button.html">Button</a>
+        <a href="/Pages/Badge/badge.html">Badge</a>
+        <a href="/Pages/Card/card.html">Card</a>
+        <a href="/Pages/Input/input.html">Input</a>
+        <a href="/Pages/Image/image.html">Image</a>
+        <a href="/Pages/Text-Utilities/text.html">Text Utilities</a>
+        <a href="/Pages/List/list.html">Lists</a>
+        <a class="active-tab" href="/Pages/Navigation/navigation.html">Navigation</a>
+
+    </aside>
+
+    <!-- Main -->
+    <main>
+        <h1>Navigation</h1>
+        <p class="body-lg">Navigation bar is used to navigate through the web apps or websites. This navigation component is responsive. It is a hamburger menu in medium and small devices</p>
+        <nav class="nav-bar">
+        <div class="nav-section">
+            <div class="nav-section-items">
+                <a href="/index.html">
+                    <img class="nav-logo" src="/Assets/clean-logos.jpeg" alt="Logo"
+                    />
+                </a>
+            </div>
+            <ul class="nav-bar-links nav-section-items">
+                <li class="list-inline-item">
+                    <a href="/buy">Buy</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="/rent">Rent</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="/sell">Sell</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-section">
+            <label class="search-bar">
+                <span class="search-bar-btn" type="submit">
+                    <i class="fa fa-search"></i>
+                </span>
+                <input class="search-bar-input" type="text" placeholder="Type to search" name="search">
+            </label>
+            <ul class="nav-icons">
+                <li class="list-inline-item hide-profile-mobile">
+                    <a class="nav-icon-link">
+                        <span class="nav-icon">
+                            <i class="fas fa-user"></i>
+                        </span>
+                        <span class="nav-icon-text">
+                            Profile
+                        </span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="nav-icon-link">
+                        <span class="nav-icon">
+                            <i class="fas fa-heart"></i>
+                        </span>
+                        <span class="nav-icon-text">
+                            Wishlist
+                        </span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="nav-icon-link">
+                        <span class="nav-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </span>
+                        <span class="nav-icon-text">
+                            Cart
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+
+    </main>
+
+</body>
+
+</html>
