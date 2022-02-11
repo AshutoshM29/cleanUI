@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cleanUI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/Components/global.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="ui-logo" src="/Assets/clean-logos.jpeg" />
+        </div>
+        <div class="right-icons">
+            <a href="/index.html" class="link-text-primary">Home</a>
+            <a href="/Components/docs.html" class="link-text-primary">Docs</a>
+            <div class="btn-toggle">
+                <i class="fas fa-sun"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Aside -->
+    <aside>
+        <!-- Getting Started -->
+        <h3>Getting Started</h3>
+        <a href="/Components/docs.html">Installation</a>
+
+        <!-- Components -->
+        <h3>Components</h3>
+        <a href="/Pages/Avatar/avatar.html">Avatar</a>
+        <a href="/Pages/Alert/alert.html">Alert</a>
+        <a href="/Pages/Button/button.html">Button</a>
+        <a href="/Pages/Badge/badge.html">Badge</a>
+        <a href="/Pages/Card/card.html">Card</a>
+        <a href="/Pages/Input/input.html">Input</a>
+        <a href="/Pages/Image/image.html">Image</a>
+        <a href="/Pages/Text-Utilities/text.html">Text Utilities</a>
+        <a class="active-tab" href="/Pages/List/list.html">Lists</a>
+        <a href="/Pages/Navigation/navigation.html">Navigation</a>
+
+    </aside>
+
+    <!-- Main -->
+    <main>
+        <h1>Lists</h1>
+        <p class="body-lg">Lists are used in various places such as <span>navigation bar</span>, <span>article
+                page</span> etc.</p>
+
+
+        <h2 class="section-header">Example of Ordered Lists</h2>
+        <p class="body-lg">We have 6 types of lists and they are as follows: </p>
+
+        <h3>Numbered List - I</h3>
+        <div class="list-container">
+            <ol>
+                <li>list Item1</li>
+                <li>list Item2</li>
+                <li>list Item3</li>
+            </ol>
+        </div>
+
+        <h3>Numbered List - II</h3>
+        <div class="list-container">
+            <ol class="list-style-wzero">
+                <li>list Item1</li>
+                <li>list Item2</li>
+                <li>list Item3</li>
+            </ol>
+        </div>
+
+        <h3>Lower Alphabet List</h3>
+        <div class="list-container">
+            <ol class="list-style-lowerC-alpha">
+                <li>list Item1</li>
+                <li>list Item2</li>
+                <li>list Item3</li>
+            </ol>
+        </div>
+
+        <h3>Upper Alphabet List</h3>
+        <div class="list-container">
+            <ol class="list-style-upperC-alpha">
+                <li>list Item1</li>
+                <li>list Item2</li>
+                <li>list Item3</li>
+            </ol>
+        </div>
+
+        <h3>Lower Roman List</h3>
+        <div class="list-container">
+            <ol class="list-style-lower-roman">
+                <li>list Item1</li>
+                <li>list Item2</li>
+                <li>list Item3</li>
+            </ol>
+        </div>
+
+        <h3>Upper Roman List</h3>
+        <div class="list-container">
+            <ol class="list-style-upper-roman">
+                <li>list Item1</li>
+                <li>list Item2</li>
+                <li>list Item3</li>
+            </ol>
+        </div>
+
+
+        <h2 class="section-header">Example of Unordered Lists</h2>
+        <p class="body-lg">We have 4 types of lists and they are as follows :</p>
+
+
+            <h3>Default List</h3>
+            <div class="list-container">
+                <ul class="list-style-disc">
+                    <li>Item1</li>
+                    <li>Item2</li>
+                    <li>Item3</li>
+                </ul>
+            </div>
+
+            <h3>Default List w/ Hollow Circle</h3>
+            <div class="list-container">
+                <ul class="list-style-circle">
+                    <li>Item1</li>
+                    <li>Item2</li>
+                    <li>Item3</li>
+                </ul>
+            </div>
+
+            <h3>Default List w/ Square Circle</h3>
+            <div class="list-container">
+                <ul class="list-style-square">
+                    <li>Item1</li>
+                    <li>Item2</li>
+                    <li>Item3</li>
+                </ul>
+            </div>
+
+            <h3>Default List w/ No Bullets</h3>
+            <div class="list-container">
+                <ul class="list-style-none">
+                    <li>Item1</li>
+                    <li>Item2</li>
+                    <li>Item3</li>
+                </ul>
+            </div>
+
+
+        <h2 class="section-header">Example of Inline Lists</h2>
+        <div class="list-container">
+            <ul class="list-style-inline">
+                <li>Inline List</li>
+                <li>Inline List</li>
+                <li>Inline List</li>
+            </ul>
+        </div>
+
+        <h2 class="section-header">Reversed List</h2>
+        <div class="list-container">
+          <ol reversed>
+            <li>List Item One</li>
+            <li>List Item Two</li>
+            <li>List Item Three</li>
+          </ol>
+
+          <ol reversed class="list-style-upper-roman">
+            <li>list Item1</li>
+            <li>list Item2</li>
+            <li>list Item3</li>
+        </ol>
+        </div>
+
+    </main>
+
+</body>
+
+</html>

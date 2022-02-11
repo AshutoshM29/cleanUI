@@ -1,0 +1,95 @@
+.nav-bar {
+    min-height: 10vh;
+    width: 100%;
+    align-items: center;
+    background-color: var(--gray-lighter);
+    font-weight: 600;
+    color: var(--blue-dominant);
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-inline-item {
+    margin-right: 2rem;
+    font-size: 1.8rem;
+}
+
+.nav-section {
+    display: flex;
+    align-items: center;
+}
+
+.nav-section-items {
+    padding: 0 1rem;
+}
+
+.nav-bar-links {
+    display: flex;
+}
+
+
+.nav-icons {
+    display: flex;
+    justify-self: right;
+}
+
+.nav-logo {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5rem;
+}
+
+.nav-icon-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-icon-link .nav-icon-text {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.nav-icon-link .nav-icon {
+    color: var(--gray-mild);
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+}
+
+.search-bar {
+    width: 100%;
+}
+
+.search-bar {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--blue-dominant);
+    border-radius: 5rem;
+    justify-self: right;
+}
+
+.search-bar-input {
+    width: calc(100% - 2rem);
+    border: none;
+    background-color: transparent;
+    padding: 1rem 1rem;
+}
+
+.search-bar-btn {
+    padding: 1rem 0rem 1rem 1rem;
+}
+
+.nav-icon:hover {
+    color: var(--blue-dominant);
+    font-size: 2.2rem;
+}
+
+.nav-icon-text {
+    color: var(--blue-dominant);
+}

@@ -3,8 +3,6 @@
     border-radius: 0.25rem;
     box-shadow: 0.3rem 0.3rem 1rem var(--gray-mild);
     display: flex;
-    /* border-radius: .6rem; */
-    /* margin: 2rem 21rem; */
   }
   
   .card-head {
@@ -126,6 +124,10 @@
      color: var(--white);
  }
  
+.price-section {
+  margin: 1rem 0;
+}
+
  .price{
      margin-left: 1rem;
      font-weight: 600;
