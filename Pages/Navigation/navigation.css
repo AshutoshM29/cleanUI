@@ -79,6 +79,7 @@
     border: none;
     background-color: transparent;
     padding: 1rem 1rem;
+    border-radius: 5rem;
 }
 
 .search-bar-btn {
