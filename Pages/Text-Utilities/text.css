@@ -1,4 +1,5 @@
-.headings-container ,.content-container{
+.headings-container,
+.content-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +11,7 @@
     gap: 1rem;
 }
 
-.pragraph-container{
+.pragraph-container {
     border: 0.2rem solid var(--blue-dominant);
     padding: 2rem;
     margin: 1rem;
@@ -28,4 +29,69 @@
 
 .text-end {
     text-align: end;
+}
+
+.body-cp-lg {
+    font-size: 4.8rem;
+    line-height: 1.2;
+}
+
+.body-cp-rg {
+    font-size: 3.2rem;
+    line-height: 1.25;
+}
+
+.body-cp-md {
+    font-size: 2.4rem;
+    line-height: 1.33;
+}
+
+.body-cp-sm {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.body-cp-xsm {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.text-strike-through {
+    text-decoration: line-through;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-bold-weight {
+    font-weight: 800;
+}
+
+.text-light-weight {
+    font-weight: 300;
+}
+
+.text-regular-weight {
+    font-weight: 500;
+}
+
+.text-small-size {
+    font-size: 1rem;
+}
+
+.text-mark {
+    background-color: var(--gray-lighter);
+}
+
+.primary-text-color {
+    color: var(--blue-mild);
+}
+
+.secondary-text-color {
+    color: var(--gray-mild);
+}
+
+.tertiary-text-color {
+    color: var(--blue-light);
 }
