@@ -143,11 +143,16 @@ html {
   aside a {
     font-size:1.8rem;
     padding: 0.8rem;
+    color: var(--gray-mild);
+    transition:padding 0.5s ease-out;
   }
   aside > a:hover {
     color: var(--blue-mild);
     font-size: 2rem;
+    padding-left:2rem;
+
   }
+
   .active-tab {
     cursor: pointer;
     text-transform: capitalize;
