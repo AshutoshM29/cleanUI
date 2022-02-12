@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cleanUI</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/Components/global.css">
+</head>
+
+<body>
+  <header>
+    <div>
+      <img class="ui-logo" src="/Assets/clean-logos.jpeg" />
+    </div>
+    <div class="right-icons">
+      <a href="/index.html" class="link-text-primary">Home</a>
+      <a href="/Components/docs.html" class="link-text-primary">Docs</a>
+      <div class="btn-toggle">
+        <i class="fas fa-sun"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- Aside -->
+  <aside>
+    <!-- Getting Started -->
+    <h3>Getting Started</h3>
+    <a href="/Components/docs.html">Installation</a>
+
+    <!-- Components -->
+    <h3>Components</h3>
+    <a href="/Pages/Avatar/avatar.html">Avatar</a>
+    <a href="/Pages/Alert/alert.html">Alert</a>
+    <a href="/Pages/Button/button.html">Button</a>
+    <a href="/Pages/Badge/badge.html">Badge</a>
+    <a href="/Pages/Card/card.html">Card</a>
+    <a href="/Pages/Input/input.html">Input</a>
+    <a href="/Pages/Image/image.html">Image</a>
+    <a href="/Pages/Text-Utilities/text.html">Text Utilities</a>
+    <a href="/Pages/List/list.html">Lists</a>
+    <a class="active-tab" href="/Pages/Modal/modal.html">Modal</a>
+    <a href="/Pages/Navigation/navigation.html">Toast</a>
+  </aside>
+
+  <!-- Main -->
+  <main>
+    <h1>Modal</h1>
+    <p class="body-lg">Modals are positioned over everything else in the document and remove scroll from the page. It gets closed only with close button on modal pop-up.</p>
+
+    <p class="body-lg">Modals are pop-ups that are used to show important information to the user. <br>
+        Modals are different from Dialog Box as the user can't continue work on site until user responds to the Modal. <br>
+        While in case of Dialog Box, user can continue working on site without necessarily interacting with it.</p>
+        <br>
+        <br>
+        <h2>Modal Example</h2>
+
+
+        <div class="modal-container">
+            <div class="modal">
+              <div class="modal-head">
+                  Important
+                  <button class="btn btn-close">x</button>            
+                </div>
+
+              <p class="modal-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+
+              <div class="modal-foot">
+                <button class="btn btn-primary-solid">Next</button>
+                <button class="btn btn-secondary-outline">Save</button>
+              </div>
+            </div>
+
+  </main>
+
+</body>
+
+</html>
