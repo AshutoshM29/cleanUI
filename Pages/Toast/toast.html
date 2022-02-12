@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cleanUI</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/Components/global.css">
+</head>
+
+<body>
+  <header>
+    <div>
+      <img class="ui-logo" src="/Assets/clean-logos.jpeg" />
+    </div>
+    <div class="right-icons">
+      <a href="/index.html" class="link-text-primary">Home</a>
+      <a href="/Components/docs.html" class="link-text-primary">Docs</a>
+      <div class="btn-toggle">
+        <i class="fas fa-sun"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- Aside -->
+  <aside>
+    <!-- Getting Started -->
+    <h3>Getting Started</h3>
+    <a href="/Components/docs.html">Installation</a>
+    <a href="/Pages/Text-Utilities/text.html">Typography</a>
+
+    <!-- Components -->
+    <h3>Components</h3>
+    <a href="/Pages/Avatar/avatar.html">Avatar</a>
+    <a href="/Pages/Alert/alert.html">Alert</a>
+    <a href="/Pages/Button/button.html">Button</a>
+    <a href="/Pages/Badge/badge.html">Badge</a>
+    <a href="/Pages/Card/card.html">Card</a>
+    <a href="/Pages/Input/input.html">Input</a>
+    <a href="/Pages/Image/image.html">Image</a>
+    <a href="/Pages/List/list.html">Lists</a>
+    <a href="/Pages/Modal/modal.html">Modal</a>
+    <a class="active-tab" href="/Pages/Toast/toast.html">Toast</a>
+  </aside>
+
+  <!-- Main -->
+  <main>
+    <h1>Toast</h1>
+    <p class="body-lg">This component can be used for toast or snackbar component. Toast is mostly used to show feedback message. Snackbar is to used show message that need user action</p>
+
+    <h2 class="section-header">Toast w/ buttons</h2>
+    <div class="toast-container">
+        <div class="toast">
+            <p class="child">
+                Can't send photo. Retry in 5 seconds.
+            </p>
+            <button class="child" id="btn-retry">RETRY</button>
+            <button class="child" id="btn-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+
+    <h2 class="section-header">Success Toast</h2>
+    <div class="toast-container">
+        <div class="toast toast-success">
+            <p class="child">
+                Success!
+            </p>
+            <button class="child" id="btn-close">
+                <i class="fas fa-times toast-success btn-success"></i>
+            </button>
+        </div>
+    </div>
+
+    <h2 class="section-header">Failure Toast</h2>
+    <div class="toast-container">
+        <div class="toast toast-failure">
+            <p class="child toast-failure">
+                Not Saved! Try again
+            </p>
+            <button class="child" id="btn-close">
+                <i class="fas fa-undo toast-failure btn-failure"></i>
+            </button>
+            <button class="child" id="btn-close">
+                <i class="fas fa-times toast-failure"></i>
+            </button>
+        </div>
+    </div>
+
+  </main>
+
+</body>
+
+</html>
