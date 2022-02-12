@@ -1,7 +1,6 @@
 .modal {
     background: var(--gray-lighter);
     border-radius: 1rem;
-    width: fit-content;
     max-width: 45rem;
     z-index: 2;
   }
