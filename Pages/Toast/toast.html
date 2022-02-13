@@ -44,42 +44,54 @@
     <a href="/Pages/Input/input.html">Input</a>
     <a href="/Pages/Image/image.html">Image</a>
     <a href="/Pages/List/list.html">Lists</a>
-    <a class="active-tab" href="/Pages/Modal/modal.html">Modal</a>
-    <a href="/Pages/Toast/toast.html">Toast</a>
+    <a href="/Pages/Modal/modal.html">Modal</a>
+    <a class="active-tab" href="/Pages/Toast/toast.html">Toast</a>
   </aside>
 
   <!-- Main -->
   <main>
-    <h1>Modal</h1>
-    <p class="body-lg">Modals are positioned over everything else in the document and remove scroll from the page. It gets closed only with close button on modal pop-up.</p>
+    <h1>Toast</h1>
+    <p class="body-lg">This component can be used for toast or snackbar component. Toast is mostly used to show feedback message. Snackbar is to used show message that need user action</p>
 
-    <p class="body-lg">Modals are pop-ups that are used to show important information to the user. <br>
-        Modals are different from Dialog Box as the user can't continue working on site until user responds to the Modal. <br>
-        While in case of Dialog Box, user can continue working on site without necessarily interacting with it.</p>
-        <br>
-        <br>
-        <h2>Modal Example</h2>
+    <h2 class="section-header">Toast w/ buttons</h2>
+    <div class="toast-container">
+        <div class="toast">
+            <p class="child">
+                Can't send photo. Retry in 5 seconds.
+            </p>
+            <button class="child" id="btn-retry">RETRY</button>
+            <button class="child" id="btn-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
 
+    <h2 class="section-header">Success Toast</h2>
+    <div class="toast-container">
+        <div class="toast toast-success">
+            <p class="child">
+                Success!
+            </p>
+            <button class="child" id="btn-close">
+                <i class="fas fa-times toast-success btn-success"></i>
+            </button>
+        </div>
+    </div>
 
-        <div class="modal-container">
-            <div class="modal">
-              <div class="modal-head">
-                  Important
-                  <button class="btn btn-close">x</button>            
-                </div>
-
-              <p class="modal-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-
-              <div class="modal-foot">
-                <button class="btn btn-primary-solid">Next</button>
-                <button class="btn btn-secondary-outline">Save</button>
-              </div>
-            </div>
+    <h2 class="section-header">Failure Toast</h2>
+    <div class="toast-container">
+        <div class="toast toast-failure">
+            <p class="child toast-failure">
+                Not Saved! Try again
+            </p>
+            <button class="child" id="btn-close">
+                <i class="fas fa-undo toast-failure btn-failure"></i>
+            </button>
+            <button class="child" id="btn-close">
+                <i class="fas fa-times toast-failure"></i>
+            </button>
+        </div>
+    </div>
 
   </main>
 

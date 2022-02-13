@@ -8,7 +8,8 @@
 @import url("/Pages/Card/card.css");
 @import url("/Pages/Input/input.css");
 @import url("/Pages/Image/image.css");
-@import url("/Pages/Text-Utilities/text.css");
+@import url("/Pages/Typography/typography.css");
 @import url("/Pages/List/list.css");
 @import url("/Pages/Navigation/navigation.css");
 @import url("/Pages/Modal/modal.css");
+@import url("/Pages/Toast/toast.css");
