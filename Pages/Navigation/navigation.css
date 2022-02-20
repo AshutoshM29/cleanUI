@@ -8,7 +8,7 @@
     padding: 1rem;
     box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .list-inline-item {
@@ -19,6 +19,7 @@
 .section-nav {
     display: flex;
     align-items: center;
+    margin-left: 2.5rem;
 }
 
 .section-nav-items {
