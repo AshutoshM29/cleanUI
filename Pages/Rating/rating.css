@@ -1,0 +1,15 @@
+.star-rating {
+    border: 0.2rem solid var(--blue-dominant);
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    width: fit-content;
+}
+
+.rating:hover {
+    cursor: pointer;
+}
+
+.starred {
+    color: var(--orange-mild);
+}
