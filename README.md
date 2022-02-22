@@ -40,7 +40,7 @@ To use the library just copy and paste the given code in the <head> part of the 
 
 6. [Cards](https://clean-ui.netlify.app/pages/card/card)
 
-7. [Input](#https://clean-ui.netlify.app/pages/input/input)
+7. [Input](https://clean-ui.netlify.app/pages/input/input)
 
 8. [Image](https://clean-ui.netlify.app/pages/image/image)
 
