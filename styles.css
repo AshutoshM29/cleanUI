@@ -135,8 +135,7 @@ html {
     grid-area: aside;
     display: flex;
     flex-direction: column;
-    /* change padding */
-    padding: 16rem 0 1rem 5rem;
+    padding: 20rem 0 1rem 5rem;
     justify-content: center;
     overflow: auto;
     margin-top: 1rem;
