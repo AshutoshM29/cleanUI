@@ -14,7 +14,7 @@ It helps you build your projects sooner
 To use the library just copy and paste the given code in the <head> part of the HTML. So that you can style your components by just adding class names to your HTML elements.
 
 ```html
-<link rel="stylesheet" href="https://uiclean.netlify.app/Components/global.css" />
+<link rel="stylesheet" href="https://clean-ui.netlify.app/Components/global.css" />
 ```
 ## Features
 
