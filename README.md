@@ -1,5 +1,6 @@
 # cleanUI - Component Library
 
+Project Link: [cleanUI](https://clean-ui.netlify.app/)
 ## What is cleanUI?
 
 **clean UI** is a lightweight and customizable Component Library.
@@ -27,31 +28,31 @@ To use the library just copy and paste the given code in the <head> part of the 
 
 ## Following are all the components that clean UI consist of: 
 
-1. [Typography](#typography)
+1. [Typography](https://clean-ui.netlify.app/pages/typography/typography)
 
-2. [Avatars](#avatars)
+2. [Avatars](https://clean-ui.netlify.app/pages/avatar/avatar)
 
-3. [Alerts](#alerts)
+3. [Alerts](https://clean-ui.netlify.app/pages/alert/alert)
 
-4. [Button](#buttons)
+4. [Button](https://clean-ui.netlify.app/pages/button/button)
 
-5. [Badge](#badges)
+5. [Badge](https://clean-ui.netlify.app/pages/badge/badge)
 
-6. [Cards](#cards)
+6. [Cards](https://clean-ui.netlify.app/pages/card/card)
 
-7. [Input](#inputs)
+7. [Input](#https://clean-ui.netlify.app/pages/input/input)
 
-8. [Image](#images)
+8. [Image](https://clean-ui.netlify.app/pages/image/image)
 
-9. [Lists](#lists)
+9. [Lists](https://clean-ui.netlify.app/pages/list/list)
 
-10. [Navigation](#navigation)
+10. [Navigation](https://clean-ui.netlify.app/pages/navigation/navigation)
 
-11. [Modal](#modal)
+11. [Modal](https://clean-ui.netlify.app/pages/modal/modal)
 
-12. [Toast](#toast)
+12. [Toast](https://clean-ui.netlify.app/pages/toast/toast)
 
-13. [Rating](#rating)
+13. [Rating](https://clean-ui.netlify.app/pages/rating/rating)
 
 
 ### Typography
@@ -121,7 +122,7 @@ We have 4 types of Solid Buttons
 
 - Outline Buttons
 
-We have 4 types of Solid Buttons
+We have 4 types of Outline Buttons
     - Primary Button
     - Secondary Button
     - Success Button
