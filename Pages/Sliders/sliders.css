@@ -1,0 +1,35 @@
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.slider-custom::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: var(--white);
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    border: 0.2rem solid var(--blue-mild);
+    margin-top: -0.70rem;
+}
+
+.slider-custom {
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+.slider-custom:focus {
+    outline: none;
+}
+
+.slider-custom::-webkit-slider-runnable-track {
+    background: var(--blue-mild);
+    height: 0.2rem;
+    margin: 0.5rem;
+}
+
+.slider-icon-custom {
+    color: var(--blue-mild);
+}
