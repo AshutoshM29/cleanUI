@@ -2,39 +2,14 @@
     border: 0.2rem solid var(--blue-dominant);
     padding: 1rem;
     border-radius: 1rem;
-    font-size: 3rem;
+    font-size: 2rem;
     width: fit-content;
-    display: flex;
-    flex-direction: row-reverse;
-    color: var(--gray-light);
+}
+
+.rating:hover {
+    cursor: pointer;
 }
 
 .starred {
     color: var(--orange-mild);
-}
-
-.star-rating input {
-    display: none;
-}
-
-.star-rating label {
-    color: var(--gray-light);
-    cursor: pointer;
-    font-size: 3rem;
-    position: relative;
-}
-
-.star-rating label:hover,
-.star-rating label:hover~label {
-    color: var(--orange-mild);
-}
-
-input:checked~label {
-    color: var(--orange-mild);
-}
-
-.star-half {
-    width: 1.65rem;
-    transform: translateX(100%);
-    overflow: hidden;
 }
