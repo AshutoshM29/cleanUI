@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cleanUI</title>
+    <script src="https://kit.fontawesome.com/a15dea0e37.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/Components/global.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="ui-logo" src="/Assets/clean-logos.jpeg" />
+        </div>
+        <div class="right-icons">
+            <a href="/index.html" class="link-text-primary">Home</a>
+            <a href="/Components/docs.html" class="link-text-primary">Docs</a>
+            <div class="btn-toggle">
+                <i class="fas fa-sun"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Aside -->
+    <aside>
+        <!-- Getting Started -->
+        <h3>Getting Started</h3>
+        <a href="/Components/docs.html">Installation</a>
+        <a href="/Pages/Text-Utilities/text.html">Typography</a>
+
+        <!-- Components -->
+        <h3>Components</h3>
+        <a href="/Pages/Avatar/avatar.html">Avatar</a>
+        <a href="/Pages/Alert/alert.html">Alert</a>
+        <a href="/Pages/Button/button.html">Button</a>
+        <a href="/Pages/Badge/badge.html">Badge</a>
+        <a href="/Pages/Card/card.html">Card</a>
+        <a href="/Pages/Input/input.html">Input</a>
+        <a href="/Pages/Image/image.html">Image</a>
+        <a href="/Pages/List/list.html">Lists</a>
+        <a href="/Pages/Modal/modal.html">Modal</a>
+        <a href="/Pages/Toast/toast.html">Toast</a>
+        <a href="/Pages/Rating/rating.html">Rating</a>
+        <a class="active-tab" href="/Pages/Slider/slider.html">Sliders</a>
+    </aside>
+
+    <!-- Main -->
+    <main>
+        <h1>Sliders</h1>
+        <p class="body-lg">Slider components are used when we don't want accurate values</p>
+        <p class="body-lg">We have 4 types of sliders: </p>
+        <h2 class="section-header">Default Slider</h2>
+
+        <input type="range" name="range1" id="range1" min="0" max="100" value="50" />
+
+        <p class="body-r">Copy the given code to create Default Slider</p>
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%283%2C26%2C77%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=152%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522range%2522%2520name%253D%2522range1%2522%2520id%253D%2522range1%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%2520%252F%253E"
+            style="width: 80rem; height: 25rem; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+        <h2 class="section-header">Default Slider w/Icon</h2>
+
+        <label class="slider-icon" for="range2">
+            <i class="fas fa-volume-up"></i>
+        </label>
+        <input type="range" name="range2" id="range2" min="0" max="100" value="50" />
+
+        <p class="body-r">Copy the given code to create Default Slider w/Icon</p>
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%283%2C26%2C77%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=152%25&si=false&es=2x&wm=false&code=%253Clabel%2520class%253D%2522slider-icon%2522%2520for%253D%2522range2%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-volume-up%2522%253E%253C%252Fi%253E%250A%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522range%2522%2520name%253D%2522range2%2522%2520id%253D%2522range2%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%2520%252F%253E"
+            style="width: 80rem; height: 25rem; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+        <h2 class="section-header">Custom Slider</h2>
+
+        <input class="slider-custom" type="range" name="range3" id="range3" min="0" max="100" value="50" />
+
+        <p class="body-r">Copy the given code to create Custom Slider</p>
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%283%2C26%2C77%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=152%25&si=false&es=2x&wm=false&code=%253Cinput%2520class%253D%2522slider-custom%2522%2520type%253D%2522range%2522%2520name%253D%2522range3%2522%2520id%253D%2522range3%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%2520%252F%253E"
+            style="width: 80rem; height: 25rem; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+        <h2 class="section-header">Custom Slider w/Icon</h2>
+
+        <label class="slider-icon-custom" for="range2">
+            <i class="fas fa-volume-up"></i>
+        </label>
+        <input class="slider-custom" type="range" name="range4" id="range4" min="0" max="100" value="50" />
+
+        <p class="body-r">Copy the given code to create Custom Slider w/Icon</p>
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%283%2C26%2C77%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=152%25&si=false&es=2x&wm=false&code=%253Clabel%2520class%253D%2522slider-icon-custom%2522%2520for%253D%2522range2%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-volume-up%2522%253E%253C%252Fi%253E%250A%253C%252Flabel%253E%250A%253Cinput%2520class%253D%2522slider-custom%2522%2520type%253D%2522range%2522%2520name%253D%2522range4%2522%2520id%253D%2522range4%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%2520%252F%253E"
+            style="width: 80rem; height: 25rem; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+    </main>
+
+</body>
+
+</html>
