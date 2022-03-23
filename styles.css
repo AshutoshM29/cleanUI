@@ -188,6 +188,7 @@ html {
   main {
     grid-area: main;
     overflow-y: auto;
+    overflow-x: hidden;
     padding: 2rem 5rem;
     margin-top: 2rem;
   }
