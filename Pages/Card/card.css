@@ -159,3 +159,7 @@
  #dismiss-btn:hover {
      cursor: pointer;
  }
+
+ body {
+   overflow: hidden;
+ }
